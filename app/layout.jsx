@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 import "@/assets/styles/globals.css";
 
 export const metadate = {
@@ -14,6 +15,7 @@ const MainLayout = ({ children }) => {
       <body>
         <NavBar />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
